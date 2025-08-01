@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+header{
+  position: sticky;
+  top: 0%;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333333;
+  width: 100%;
+  padding: 1rem;
+}
+body{
+  background: linear-gradient(to right, #111, #413f3f, maroon);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hul{
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  list-style-type: none;
+}
+li.menu{
+  float: right;
+  padding-right: 15px;
+}
+div.menuu{
+  padding: 0px 40px 0px;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover{
+  color: aquamarine;
+  background-color:darkgray;
+  border-radius: 3px;
+}
+.HOME{
+  float: left;
+  color: azure;
+  padding-left: 15px;
+}
+.prof {
+  color: aliceblue;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+}
+div.penjelasan{
+  text-align: center;
+  padding: 0px 200px 0px;
+  font-size: 25px;
+  color:bisque;
+}
+div.penjelasan p a{
+  text-decoration: none;
+  color: aqua;
+}
+.softskill{
+  font-size: 25px;
+  color: azure;
+  text-align: center;
+}
+.bul{
+  list-style-type: disc;
+}
+.foter{
+  text-align: center;
+}
+footer{
+  font-size: 25px;
+  background-color: #333333;
+  color: bisque;
+}
